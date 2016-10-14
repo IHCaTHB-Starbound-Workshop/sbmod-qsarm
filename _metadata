@@ -3,6 +3,7 @@
   "description" : "[h1]Adds new weapon type, quarterstaff.[/h1]
 The quarterstaff is nearly identical to the spear in usage except it does significantly less damage but has the added perks of a large amount of knockback and a quicker swing. Very useful for keeping enemies away from your face.
 Currently only added to random generation, no crafting yet. (spawnitem commonqs etc...)
+Art entirely from vanilla assets. 
 
 [url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
 Find the server version on [url=https://github.com/IsaacHart/sbmod-qsarm]git.[/url]",
