@@ -1,14 +1,9 @@
 {
   "author" : "isaac as THE HONEY BADGER",
-  "description" : "[h1]Adds new weapon type, quarterstaff.[/h1]
-The quarterstaff is nearly identical to the spear in usage except it does significantly less damage but has the added perks of a large amount of knockback and a quicker swing. Very useful for keeping enemies away from your face.
-Currently only added to random generation, no crafting yet. (spawnitem commonqs etc...)
-Art entirely from vanilla assets. 
-
-[url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
-Find the server version on [url=https://github.com/IsaacHart/sbmod-qsarm]git.[/url]",
+  "description" : "[h1]Adds new weapon type, quarterstaff.[/h1]\nThe quarterstaff is nearly identical to the spear in usage except it does significantly less damage but has the added perks of a large amount of knockback and a quicker swing. Very useful for keeping enemies away from your face.\nCurrently only added to random generation, no crafting yet. (spawnitem commonqs etc...)\nArt entirely from vanilla assets. \n\n[url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]\nFind the server version on [url=https://github.com/IsaacHart/sbmod-qsarm]git.[/url]",
   "friendlyName" : "Quarterstaff Armory",
-  "link" : "community.playstarbound.com/threads/124193/",
+  "link" : "steam://url/CommunityFilePage/780877247",
   "name" : "QSARM.IHC",
+  "steamContentId" : "780877247",
   "version" : "0.1"
 }
