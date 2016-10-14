@@ -22,7 +22,7 @@
 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "fireTime" : [0.83, 1.11],
+    "fireTime" : [0.66, 0.89],
     "baseDps" : [7, 8],
     "damageConfig" : {
       "knockbackRange" : [35, 40]
