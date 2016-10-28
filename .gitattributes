@@ -2,5 +2,6 @@
 *.old export-ignore
 tmp export-ignore
 hold export-ignore
+bodytxt export-ignore
 .gitignore export-ignore
 .gitattributes export-ignore
