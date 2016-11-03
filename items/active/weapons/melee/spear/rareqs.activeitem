@@ -58,7 +58,7 @@
     "animationParts" : {
       "blade" : {
         "path" : "qs/<variant>.png",
-        "variants" : 50,
+        "variants" : 86,
         "paletteSwap" : true
       },
       "handle" : {
