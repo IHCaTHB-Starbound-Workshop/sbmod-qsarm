@@ -6,7 +6,7 @@
   "description" : "This quarterstaff is perfect for enemies just out of reach.",
   "shortdescription" : "Uncommon Quarterstaff",
   "tooltipKind" : "sword",
-  "category" : "spear",
+  "category" : "quarterstaff",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 
