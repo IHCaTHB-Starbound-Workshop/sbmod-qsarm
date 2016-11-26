@@ -8,7 +8,7 @@
   "tooltipKind" : "sword",
   "category" : "quarterstaff",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","spear"],
+  "itemTags" : ["weapon","melee","quarterstaff"],
 
   "animation" : "qs.animation",
   "animationParts" : { },
@@ -62,7 +62,7 @@
         "paletteSwap" : true
       },
       "handle" : {
-        "path" : "handle/<variant>.png",
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png",
         "variants" : 50,
         "paletteSwap" : true
       }

@@ -1,18 +1,22 @@
 {
-  "itemName" : "commonqs",
-  "price" : 900,
+  "itemName" : "npcqs",
+  "price" : 0,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "This quarterstaff is perfect for enemies just out of reach.",
-  "shortdescription" : "Common Quarterstaff",
+  "shortdescription" : "NPC Quarterstaff",
   "tooltipKind" : "sword",
   "category" : "quarterstaff",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","quarterstaff"],
 
-  "animation" : "qs.animation",
+  "animation" : "/items/active/weapons/melee/quarterstaff/qs.animation",
   "animationParts" : { },
-  "animationCustom" : { },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
+      "offset" : [2.0, 0.0]
+    }}}}
+  },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
@@ -22,20 +26,35 @@
 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "fireTime" : [0.66, 0.89],
-    "baseDps" : [7, 8],
-    "damageConfig" : {
-      "knockbackRange" : [35, 40]
+    "fireTime" : [1.12, 1.12],
+    "baseDps" : [2.5, 3.5],
+
+    "allowHold" : false,
+    "stances" : {
+      "idle" : {
+        "allowRotate" : false
+      },
+      "windup" : {
+        "hold" : true,
+        "duration" : 0.55,
+
+        "allowRotate" : false
+      },
+      "fire" : {
+        "allowRotate" : false
+      },
+      "hold" : {
+        "allowRotate" : false
+      }
     }
   },
   "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "qsnames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "qs/<variant>.png",
+        "path" : "/items/active/weapons/melee/quarterstaff/qs/<variant>.png",
         "variants" : 86,
         "paletteSwap" : true
       },
@@ -45,13 +64,7 @@
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "flurry",
-      "spearspin",
-      "uppercut",
-      "physicalshockwave",
-      "groundslam"
-    ],
+    "altAbilities" : [ ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "handle", "blade" ]
   }]
