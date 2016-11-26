@@ -6,7 +6,7 @@
 
 The quarterstaff is nearly identical to the spear in usage except it does significantly less damage but has the added perks of a large amount of knockback and a quicker swing. Very useful for keeping enemies away from your face.
 
-Currently only added to random generation, no crafting yet. (spawnitem commonqs etc...)
+Currently only added to random generation and merchant pools, no crafting yet. (spawnitem commonqs etc...)
 
 Art entirely from vanilla assets. 
 
@@ -18,13 +18,16 @@ For more, click the MEGATHREAD link from the steam page.
 
 [h1]Adds new weapon type, quarterstaff.[/h1]
 The quarterstaff is nearly identical to the spear in usage except it does significantly less damage but has the added perks of a large amount of knockback and a quicker swing. Very useful for keeping enemies away from your face.
-Currently only added to random generation, no crafting yet. (spawnitem commonqs etc...)
+Currently only added to random generation and merchant pools, no crafting yet. (spawnitem commonqs etc...)
 Art entirely from vanilla assets. 
 
 See [url=steamcommunity.com/sharedfiles/filedetails/?id=780877538]Quarterstaff Armory Extended[/url] for more quarterstaff variation!
 
+Featured in [url=http://steamcommunity.com/sharedfiles/filedetails/?id=729480149]FU![/url]
+Integrated with [url=http://steamcommunity.com/sharedfiles/filedetails/?id=760396113]Manufacturer's Touch.[/url]
+
 [url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
-Find the server version on [url=https://github.com/IsaacHart/sbmod-qsarm/releases/tag/0.3]git.[/url]
+Find the server version on [url=https://github.com/IsaacHart/sbmod-qsarm/releases/tag/0.4]git.[/url]
 
 steam://url/CommunityFilePage/
 
@@ -47,4 +50,4 @@ PERMISSIONS: granted per license, gplv3, included in download.
 #megathread
 ###########
 
-Quarterstaff (0.3) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=780877247']steam[/URL] | [URL='http://community.playstarbound.com/resources/4270/']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-qsarm/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-qsarm/releases/download/0.3/sbmod-qsarm-0.3.pak']direct[/URL]
+Quarterstaff (0.4) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=780877247']steam[/URL] | [URL='http://community.playstarbound.com/resources/4270/']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-qsarm/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-qsarm/releases/download/0.4/sbmod-qsarm-0.4.pak']direct[/URL]
