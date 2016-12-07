@@ -50,7 +50,7 @@
         "paletteSwap" : true
       },
       "crown0" : {
-        "path" : "/items/active/weapons/wand/generated/crown/<variant>.png?crop=2;4;20;50",
+        "path" : "/items/active/weapons/wand/generated/crown/<variant>.png?crop=2;0;20;36?replace;871132=890900;b22042=e5323b;e35f5d=ff7060;4aff3c=60b9ff",
         "variants" : 15,
         "paletteSwap" : true
       }

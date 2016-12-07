@@ -45,7 +45,7 @@
         "paletteSwap" : true
       },
       "crown0" : {
-        "path" : "/items/active/weapons/staff/generated/crown/<variant>.png?crop=2;4;20;50",
+        "path" : "/items/active/weapons/staff/generated/crown/<variant>.png?crop=2;0;20;50",
         "variants" : 6,
         "paletteSwap" : true
       }
