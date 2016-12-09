@@ -39,6 +39,15 @@
           "transformationGroups" : ["weapon"]
         }
       },
+      "crown1" : {
+        "properties" : {
+          "zLevel" : 5,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
       "blade" : {
         "properties" : {
           "zLevel" : 2,
