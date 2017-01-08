@@ -13,9 +13,25 @@
     "melee",
     "quarterstaff"
   ],
-  "animation": "qs.animation",
-  "animationParts": {},
-  "animationCustom": {},
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "fire" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/quarterstaff/swoosh/<elementalType>swoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "scripts": [
     "/items/active/weapons/melee/meleeweapon.lua"
   ],
@@ -142,10 +158,7 @@
         "blinkexplosion",
         "barrier",
         "elementalspin",
-        "rocketspear",
-        "shockwave",
-        "elementalaura",
-        "elementalpillar"
+        "rocketspear"
       ],
       "palette": "/items/active/weapons/colors/melee.weaponcolors",
       "iconDrawables": [

@@ -10,12 +10,27 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","quarterstaff"],
 
-  "animation" : "/items/active/weapons/melee/quarterstaff/qs.animation",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
   "animationCustom" : {
-    "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
-      "offset" : [2.0, 0.0]
-    }}}}
+    "animatedParts" : {
+      "parts" : {
+        "swoosh" : {
+          "partStates" : {
+            "swoosh" : {
+              "properties" : {
+                "offset" : [2.0, 0.0]
+              },
+              "fire" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/melee/quarterstaff/swoosh/<elementalType>swoosh.png:<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
